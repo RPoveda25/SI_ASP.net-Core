@@ -14,6 +14,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaInventarioV7.AccesoDatos\SistemaInventarioV7.AccesoDatos.csproj" />
+    <ProjectReference Include="..\SistemaInventarioV7.Modelos\SistemaInventarioV7.Modelos.csproj" />
+    <ProjectReference Include="..\SistemaInventarioV7.Utilidades\SistemaInventarioV7.Utilidades.csproj" />
   </ItemGroup>
 
 </Project>

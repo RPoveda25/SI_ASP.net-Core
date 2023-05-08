@@ -1,0 +1,15 @@
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Modelos.deps.json
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Modelos.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Modelos.pdb
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.pdb
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.csproj.AssemblyReference.cache
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.AssemblyInfoInputs.cache
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.AssemblyInfo.cs
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.csproj.CopyComplete
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\refint\SistemaInventarioV7.Modelos.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.pdb
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\ref\SistemaInventarioV7.Modelos.dll

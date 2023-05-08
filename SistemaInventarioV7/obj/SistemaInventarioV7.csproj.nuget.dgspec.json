@@ -4,6 +4,200 @@
     "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj",
+        "projectName": "SistemaInventarioV7.AccesoDatos",
+        "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\Poveda Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Poveda Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj"
+              },
+              "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj",
+        "projectName": "SistemaInventarioV7.Modelos",
+        "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj",
+        "packagesPath": "C:\\Users\\Poveda Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Poveda Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj",
+        "projectName": "SistemaInventarioV7.Utilidades",
+        "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\Poveda Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Poveda Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +221,17 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj"
+              },
+              "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj"
+              },
+              "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +267,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
             }
           },
           "imports": [

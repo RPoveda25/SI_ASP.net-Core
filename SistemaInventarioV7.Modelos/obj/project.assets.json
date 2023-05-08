@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "SistemaInventarioV7.Utilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SistemaInventarioV7.Utilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaInventarioV7.Utilidades.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SistemaInventarioV7.Utilidades/1.0.0": {
+      "type": "project",
+      "path": "../SistemaInventarioV7.Utilidades/SistemaInventarioV7.Utilidades.csproj",
+      "msbuildProject": "../SistemaInventarioV7.Utilidades/SistemaInventarioV7.Utilidades.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "SistemaInventarioV7.Utilidades >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Poveda Rafael\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+              "projectPath": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.deps.json
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.pdb
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.csproj.AssemblyReference.cache
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.AssemblyInfoInputs.cache
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.AssemblyInfo.cs
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\refint\SistemaInventarioV7.Utilidades.dll
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.pdb
+C:\Users\Poveda Rafael\Desktop\Poveda\ASP\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\ref\SistemaInventarioV7.Utilidades.dll
