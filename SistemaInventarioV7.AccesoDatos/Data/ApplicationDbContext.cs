@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SistemaInventarioV7.Modelos;
+using System.Reflection;
+using System.Text.RegularExpressions;
 
 namespace SistemaInventarioV7.AccesoDatos.Data
 {
@@ -8,6 +11,14 @@ namespace SistemaInventarioV7.AccesoDatos.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+        }
+
+        public DbSet<Bodega> Bodegas { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }
