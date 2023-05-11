@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MqXSCWljRX+6v0UYpYOM2W6Hj+m0v6MMc24Vf8ZWr4I=",
+  "Hash": "mzAn+bFqK2ebN6MxB9CO4hNrF/K+Mb3tOXW8vDkXH8E=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
     },
     {
       "Identity": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",
