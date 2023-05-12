@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
     {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\inventario.js",
+      "PackagePath": "staticwebassets\\js\\inventario.js"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\marca.js",
+      "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
+    },
+    {
       "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
     },
     {
       "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\lib\\bootstrap\\LICENSE",
