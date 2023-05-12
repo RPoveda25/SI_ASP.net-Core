@@ -344,14 +344,13 @@ namespace SistemaInventarioV7.AccesoDatos.Migrations
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<bool>("Estado")
                         .HasColumnType("bit");
 
                     b.Property<string>("ImagenUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("MarcaId")
@@ -454,18 +453,19 @@ namespace SistemaInventarioV7.AccesoDatos.Migrations
                     b.HasOne("SistemaInventarioV7.Modelos.Categoria", "Categoria")
                         .WithMany()
                         .HasForeignKey("CategoriaId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("SistemaInventarioV7.Modelos.Marca", "Marca")
                         .WithMany()
                         .HasForeignKey("MarcaId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("SistemaInventarioV7.Modelos.Producto", "Padre")
                         .WithMany()
-                        .HasForeignKey("PadreId");
+                        .HasForeignKey("PadreId")
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Categoria");
 
