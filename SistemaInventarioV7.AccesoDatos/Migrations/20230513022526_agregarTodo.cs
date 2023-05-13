@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SistemaInventarioV7.AccesoDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class agregarProducto : Migration
+    public partial class agregarTodo : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\471cf8bb-c6ba-4c97-80d7-56114a3b27ce.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\471cf8bb-c6ba-4c97-80d7-56114a3b27ce.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\5ea55833-8291-4516-9fc4-b7b3de540fa1.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\5ea55833-8291-4516-9fc4-b7b3de540fa1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\e8af3d6c-cd59-4760-b688-fabf29ff4529.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\e8af3d6c-cd59-4760-b688-fabf29ff4529.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\f767b1a1-5aeb-4607-afdc-890dbfa14d77.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\f767b1a1-5aeb-4607-afdc-890dbfa14d77.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\fa2023eb-17c7-435e-814c-4c58d4bb7adc.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\fa2023eb-17c7-435e-814c-4c58d4bb7adc.JPG"
+    },
+    {
       "Id": "C:\\Users\\Poveda Rafael\\Desktop\\Poveda\\ASP\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },

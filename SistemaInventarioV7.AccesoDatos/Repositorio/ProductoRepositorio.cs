@@ -61,14 +61,14 @@ namespace SistemaInventarioV7.AccesoDatos.Repositorio
                     Value = c.Id.ToString()
                 });
             }
-            //if (obj == "Producto")
-            //{
-            //    return _db.Productos.Where(c => c.Estado == true).Select(c => new SelectListItem
-            //    {
-            //        Text = c.Descripcion,
-            //        Value = c.Id.ToString()
-            //    });
-            //}
+            if (obj == "Producto")
+            {
+                return _db.Productos.Where(c => c.Estado == true).Select(c => new SelectListItem
+                {
+                    Text = c.Descripcion,
+                    Value = c.Id.ToString()
+                });
+            }
             return null;
         }
     }

@@ -12,8 +12,8 @@ using SistemaInventarioV7.AccesoDatos.Data;
 namespace SistemaInventarioV7.AccesoDatos.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230512054206_agregarProducto")]
-    partial class agregarProducto
+    [Migration("20230513022526_agregarTodo")]
+    partial class agregarTodo
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

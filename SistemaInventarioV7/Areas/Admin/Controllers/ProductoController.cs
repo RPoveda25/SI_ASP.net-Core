@@ -36,7 +36,7 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
                 Producto = new Producto(),
                 CategoriaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Categoria"),
                 MarcaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Marca"),
-                // PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto")
+                PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto")
 
             };
 
@@ -55,70 +55,69 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
                 }
                 return View(productoVM);
             }
-
         }
 
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Upsert(ProductoVM productoVM)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var files = HttpContext.Request.Form.Files;
-        //        string webRootPath = _webHostEnvironment.WebRootPath;
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Upsert(ProductoVM productoVM)
+        {
+            if (ModelState.IsValid)
+            {
+                var files = HttpContext.Request.Form.Files;
+                string webRootPath = _webHostEnvironment.WebRootPath;
 
-        //        if (productoVM.Producto.Id == 0)
-        //        {
-        //            // Crear
-        //            string upload = webRootPath + DS.ImagenRuta;
-        //            string fileName = Guid.NewGuid().ToString();
-        //            string extension = Path.GetExtension(files[0].FileName);
+                if (productoVM.Producto.Id == 0)
+                {
+                    // Crear
+                    string upload = webRootPath + DS.ImagenRuta;
+                    string fileName = Guid.NewGuid().ToString();
+                    string extension = Path.GetExtension(files[0].FileName);
 
-        //            using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension), FileMode.Create))
-        //            {
-        //                files[0].CopyTo(fileStream);
-        //            }
-        //            productoVM.Producto.ImagenUrl = fileName + extension;
-        //            await _unidadTrabajo.Producto.Agregar(productoVM.Producto);
-        //        }
-        //        else
-        //        {
-        //            // Actualizar
-        //            var objProducto = await _unidadTrabajo.Producto.ObtenerPrimero(p => p.Id == productoVM.Producto.Id, isTracking: false);
-        //            if (files.Count > 0)  // Si se carga una nueva Imagen para el producto existente
-        //            {
-        //                string upload = webRootPath + DS.ImagenRuta;
-        //                string fileNAme = Guid.NewGuid().ToString();
-        //                string extension = Path.GetExtension(files[0].FileName);
+                    using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(fileStream);
+                    }
+                    productoVM.Producto.ImagenUrl = fileName + extension;
+                    await _unidadTrabajo.Producto.Agregar(productoVM.Producto);
+                }
+                else
+                {
+                    // Actualizar
+                    var objProducto = await _unidadTrabajo.Producto.ObtenerPrimero(p => p.Id == productoVM.Producto.Id, isTracking: false);
+                    if (files.Count > 0)  // Si se carga una nueva Imagen para el producto existente
+                    {
+                        string upload = webRootPath + DS.ImagenRuta;
+                        string fileNAme = Guid.NewGuid().ToString();
+                        string extension = Path.GetExtension(files[0].FileName);
 
-        //                //Borrar la imagen anterior
-        //                var anteriorFile = Path.Combine(upload, objProducto.ImagenUrl);
-        //                if (System.IO.File.Exists(anteriorFile))
-        //                {
-        //                    System.IO.File.Delete(anteriorFile);
-        //                }
-        //                using (var fileStream = new FileStream(Path.Combine(upload, fileNAme + extension), FileMode.Create))
-        //                {
-        //                    files[0].CopyTo(fileStream);
-        //                }
-        //                productoVM.Producto.ImagenUrl = fileNAme + extension;
-        //            } // Caso contrario no se carga una nueva imagen
-        //            else
-        //            {
-        //                productoVM.Producto.ImagenUrl = objProducto.ImagenUrl;
-        //            }
-        //            _unidadTrabajo.Producto.Actualizar(productoVM.Producto);
-        //        }
-        //        TempData[DS.Exitosa] = "Transaccion Exitosa!";
-        //        await _unidadTrabajo.Guardar();
-        //        return View("Index");
+                        //Borrar la imagen anterior
+                        var anteriorFile = Path.Combine(upload, objProducto.ImagenUrl);
+                        if (System.IO.File.Exists(anteriorFile))
+                        {
+                            System.IO.File.Delete(anteriorFile);
+                        }
+                        using (var fileStream = new FileStream(Path.Combine(upload, fileNAme + extension), FileMode.Create))
+                        {
+                            files[0].CopyTo(fileStream);
+                        }
+                        productoVM.Producto.ImagenUrl = fileNAme + extension;
+                    } // Caso contrario no se carga una nueva imagen
+                    else
+                    {
+                        productoVM.Producto.ImagenUrl = objProducto.ImagenUrl;
+                    }
+                    _unidadTrabajo.Producto.Actualizar(productoVM.Producto);
+                }
+                TempData[DS.Exitosa] = "Transaccion Exitosa!";
+                await _unidadTrabajo.Guardar();
+                return View("Index");
 
-        //    }  // If not Valid
-        //    productoVM.CategoriaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Categoria");
-        //    productoVM.MarcaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Marca");
-        //    productoVM.PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto");
-        //    return View(productoVM);
-        //}
+            }  // If not Valid
+            productoVM.CategoriaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Categoria");
+            productoVM.MarcaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Marca");
+            productoVM.PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto");
+            return View(productoVM);
+        }
 
 
 
@@ -142,13 +141,13 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
                 return Json(new { success = false, message = "Error al borrar Producto" });
             }
 
-            //// Remover imagen
-            //string upload = _webHostEnvironment.WebRootPath + DS.ImagenRuta;
-            //var anteriorFile = Path.Combine(upload, productoDb.ImagenUrl);
-            //if (System.IO.File.Exists(anteriorFile))
-            //{
-            //    System.IO.File.Delete(anteriorFile);
-            //}
+            // Remover imagen
+            string upload = _webHostEnvironment.WebRootPath + DS.ImagenRuta;
+            var anteriorFile = Path.Combine(upload, productoDb.ImagenUrl);
+            if (System.IO.File.Exists(anteriorFile))
+            {
+                System.IO.File.Delete(anteriorFile);
+            }
 
             _unidadTrabajo.Producto.Remover(productoDb);
             await _unidadTrabajo.Guardar();
@@ -179,5 +178,4 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
         #endregion
 
     }
-
 }

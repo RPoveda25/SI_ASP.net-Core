@@ -1,5 +1,6 @@
 ﻿@model SistemaInventarioV7.Modelos.ViewModels.ProductoVM
 @using SistemaInventarioV7.Utilidades
+
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     var titulo = "Crear Nuevo Producto";
@@ -9,8 +10,8 @@
     @if (Model.Producto.Id != 0)
     {
         titulo = "Editar Producto";
-                <input asp-for="Producto.Id" hidden />
-                <input asp-for="Producto.ImagenUrl" hidden />
+        <input asp-for="Producto.Id" hidden />
+        <input asp-for="Producto.ImagenUrl" hidden />
     }
 
     <div class="border p-3">
@@ -57,7 +58,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <label>Imagen</label>
-                            <input type="file" accept="image/png, image/gif, image/jpeg" name="files" id="imagenId" class="form-control" />
+                            <input type="file" accept="image/png, image/gif, image/jpeg, image/jpg" name="files" id="imagenId" class="form-control" />
                             <span asp-validation-for="Producto.Precio" class="text-danger"></span>
                         </div>
                     </div>
@@ -83,7 +84,7 @@
                     </div>
 
 
-                    @*<div class="row">
+                    <div class="row">
                         <div class="col-md-6">
                             <label>Producto Padre</label>
                             <select asp-for="Producto.PadreId" asp-items="@Model.PadreLista" class="form-select">
@@ -101,7 +102,7 @@
                             </select>
                             <span asp-validation-for="Producto.Estado" class="text-danger"></span>
                         </div>
-                    </div>*@
+                    </div>
 
 
 
@@ -110,12 +111,12 @@
                     <div class="d-grid gap-2 d-md-block">
                         @if (Model.Producto.Id != 0)
                         {
-                                    <partial name="_BotonesActualizarYRegresar" model="Model.Producto.Id" />
+                            <partial name="_BotonesActualizarYRegresar" model="Model.Producto.Id" />
                         }
                         else
                         {
-                                    <button type="submit" onclick="return validarImagen()" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> Crear</button>
-                                    <a asp-action="Index" class="btn btn-success "><i class="bi bi-arrow-return-left"></i> Regresar</a>
+                            <button type="submit" onclick="return validarImagen()" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> Crear</button>
+                            <a asp-action="Index" class="btn btn-success "><i class="bi bi-arrow-return-left"></i> Regresar</a>
                         }
 
                     </div>
@@ -127,27 +128,32 @@
             <div class="col-4">
                 @if (Model.Producto.Id != 0)
                 {
-                            <img src="@DS.ImagenRuta@Model.Producto.ImagenUrl" width="100%" style="border-radius:5px; border:1px solid #bbb" />
+                    <img src="@DS.ImagenRuta@Model.Producto.ImagenUrl" width="100%" style="border-radius:5px; border:1px solid #bbb" />
                 }
             </div>
+
+
         </div>
+
+
     </div>
+
+
 </form>
 
 @section Scripts {
-            <partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial" />
 
-            <script>
+    <script>
 
-                function validarImagen() {
-                    if (document.getElementById("imagenId").value=="")
-                    {
-                        swal("Error", "Seleccione una Imagen!", "error")
-                        return false;
-                    }
-                    return true;
-                }
+        function validarImagen() {
+            if (document.getElementById("imagenId").value == "") {
+                swal("Error", "Seleccione una Imagen!", "error")
+                return false;
+            }
+            return true;
+        }
 
-            </script>
+    </script>
 
 }
